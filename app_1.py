@@ -50,7 +50,7 @@ auth = dash_auth.BasicAuth(
 ##############################################
 
 
-data1 = pd.read_csv("assets/data_final_report.csv", delimiter=",",decimal=".",encoding = "ISO-8859-1",engine='python')
+data1 = pd.read_csv("data_final_report.csv", delimiter=",",decimal=".",encoding = "ISO-8859-1",engine='python')
 #list for dropdown
 
 # list_cat=data1['CAT_NAME'].unique()
